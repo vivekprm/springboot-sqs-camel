@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class SQSProcessor implements Processor{
-    @Override
     public void process(Exchange exchange) throws Exception {
         System.out.println(exchange.getIn().getBody());
     }
