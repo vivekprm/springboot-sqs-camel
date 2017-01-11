@@ -1,0 +1,17 @@
+*.iml
+.gradle
+.idea
+.classpath
+.project
+.settings
+.gradle
+.springBeans
+gen/*
+*~
+build/
+bin/
+target/
+gradle/
+atlassian-ide-plugin.xml
+metadata.md
+application-dev.properties
